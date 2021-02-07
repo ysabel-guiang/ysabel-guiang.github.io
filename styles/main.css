@@ -8,6 +8,7 @@
 
 .row { width: 100%;
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -23,3 +24,23 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        display:wrap;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .blog-summary{
+        display:wrap;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
