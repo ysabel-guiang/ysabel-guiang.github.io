@@ -1,14 +1,13 @@
-* { 
-    border: solid seagreen 1px;
-}
 
-* {
-    box-sizing: border-box;
+* { 
+    font-family: 'Taviraj', serif;
+    font-style: Taviraj;
 }
 
 .row { width: 100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 
 }
 
@@ -27,8 +26,11 @@
 
 img {
     max-width: 100%;
-    height: auto;
 }
+
+h1 { text-transform: uppercase;}
+h2 { text-transform: uppercase;}
+
 
 @media only screen and (max-width: 600px) {
     .intro {
