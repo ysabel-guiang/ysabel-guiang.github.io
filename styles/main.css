@@ -38,6 +38,9 @@ h1 {
 h2 { text-transform: uppercase;
 font-size: 3vh;}
 
+a {
+    color: white;
+}
 
 @media only screen and (max-width: 600px) {
     .intro {
@@ -79,10 +82,9 @@ font-size: 3vh;}
     padding: 15px 30px 15px 30px;
 }
 
-a {
-    color: white;
-}
-
 .left-align {
     text-align:left;
+}
+.blog-title{
+    color: black;
 }
