@@ -107,3 +107,13 @@ a {
 .left-align {
     text-align:left;
 }
+
+.blog-half-img{
+    max-width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.three-img{
+    max-width: 30%;
+}
